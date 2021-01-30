@@ -739,6 +739,10 @@ section#home {
     color: var(--clr-accent);
 }
 
+.summary a {
+    text-decoration: none;
+}
+
 .summary strong:hover {
     color: var(--clr-light);
 }
