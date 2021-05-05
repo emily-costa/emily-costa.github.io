@@ -850,3 +850,10 @@ section#home {
     grid-gap: 15px 15px;
 }
 
+.MSL {
+    color: rgb(82,127,192);
+}
+
+.MSL:hover {
+    text-decoration: underline;
+}
