@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emily Costa Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emily Costa Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-    rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Readex+Pro&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/png" href="assets/BrowserIcon.png">
+  <link rel="shortcut icon" type="image/png" href="assets/BrowserIcon.png">
+</head>
+<body>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+      <li class="nav__item current"><a href="about.html" class="nav__link">About</a></li>
+      <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+      <li class="nav__item"><a href="assets/CostaResume.pdf" class="nav__link" target="_blank">Resume</a></li>
+    </ul>
+  </nav>
 
-  </head>
-  <body>
-
-    <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a></li>
-        </ul>
-    </nav>
-
-      <!-- About Me -->
-    <div class="about-me" >
-        <h1 class="section__title section__title--about">
-            Hi, I am <strong>Emily Costa</strong>
-        </h1>
-        <img src="assets/emily.jpg" alt="a picture of Jane Smith smiling" class="emily__img">
-        <p class="section__subtitle section__subtitle--about">Grand Rapids, MI</p>
+  <div class="about-me">
+  <!-- Personal Headshot -->
+    <div class="headshot">
+      <img src="assets/emily.jpg" alt="personal headshot" class="emily-img">
     </div>
 
-    <div class="summary">
-        <p>
-            Currently, I am earning my Bachelor of Computer Science from Calvin University, with an expected graduation of
-            December 2021. My technical interests include mobile development and UI/UX design. During the school year,
-            I am also working as a Software Associate at
-            <a href="https://michiganlabs.com/about/emily-costa" target="_blank" class="MSL" >Michigan Software Labs</a>.
-            <br><br>
-            Download my <a href="assets/CostaResume.pdf" download="CostaResume"><strong>Resume</strong></a>
-            <br><br>
-            Find me on <a href="https://www.linkedin.com/in/emily-a-costa/" target="_blank"><strong>LinkedIn</strong></a>
-            <br><br>
-            Find me on <a href="https://github.com/emily-costa" target="_blank"><strong>GitHub</strong></a>
-        </p>
+    <!-- About Me -->
+    <div class="summary" >
+      <h1>Hi,</h1>
+      <br>
+      <h2>A little about me</h2>
+      <br>
+      <h3>My name is Emily and my Chinese name is Hong.</h3>
+      <br>
+      <p>
+        I earned my Bachelors of Computer Science at Calvin University. Undergrad, I interned at Michigan Software
+        Labs where I practiced Android and web development. Currently, I work as a Software Developer at General Motors to support
+        their vision of putting every driver in an electric vehicle by 2035. 
+      </p>
+      <br>
+      <p>
+        A long term career goal of mine is to obtain a PhD in Computer Science. I have always been passionate about 
+        increasing ethnic and gender diversity within STEM, so in my future I hope to guide and teach the next 
+        generation of diverse leaders. 
+      </p>
     </div>
-
-  </body>
+  </div>
+</body>
